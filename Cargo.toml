@@ -1,0 +1,15 @@
+[package]
+name = "js_engine"
+version = "0.1.0"
+authors = ["WangWeiLe <wangweile@shuidihuzhu.com>"]
+edition="2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+#crate-type = ["cdylib", "lib"]
+name = "js_engine"
+path = "src/lib/lib.rs"
+
